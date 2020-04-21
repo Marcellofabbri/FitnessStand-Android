@@ -12,10 +12,6 @@ import androidx.navigation.fragment.NavHostFragment;
 
 public class FirstFragment extends Fragment {
 
-    private void countMe(View view) {
-        String countString = showCountTextView.getText().toString();
-    }
-
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
@@ -41,13 +37,6 @@ public class FirstFragment extends Fragment {
             public void onClick(View view) {
                 Toast myToast = Toast.makeText(getActivity(), "Hello dis is a toast", Toast.LENGTH_SHORT);
                 myToast.show();
-            }
-        });
-
-        view.findViewById(R.id.count_button).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                countMe(view);
             }
         });
     }

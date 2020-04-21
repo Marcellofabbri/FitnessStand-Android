@@ -11,6 +11,9 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+
+import java.nio.charset.Charset;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -51,5 +54,14 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void increase(View view) {
+        View numberView = findViewById(R.id.textview_first);
+        TextView number = (TextView) numberView;
+        int digits = Integer.parseInt(number.getText().toString());
+        digits += 1;
+        String digitsString = Integer.toString(digits);
+        number.setText(digitsString);
     }
 }
