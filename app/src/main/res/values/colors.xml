@@ -5,4 +5,5 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="screenBackground">#C58E52</color>
     <color name="toolbarColor">#673B31</color>
+    <color name="calendarBackground">#C19361</color>
 </resources>
