@@ -19,7 +19,19 @@
         <CalendarView
             android:layout_width="match_parent"
             android:layout_height="320dp">
-
         </CalendarView>
+
     </LinearLayout>
+
+    <Button
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@drawable/logworkout"
+        android:text="@string/log_workout"
+        android:textColor="@color/toolbarColor"
+        android:textFontWeight="900">
+    </Button>
 </LinearLayout>
