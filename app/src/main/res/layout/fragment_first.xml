@@ -11,7 +11,7 @@
 
     <LinearLayout
         android:layout_marginTop="100dp"
-        android:background="@color/calendarBackground"
+        android:background="@drawable/calendar"
         android:layout_gravity="center"
         android:layout_width="300dp"
         android:layout_height="wrap_content">
