@@ -1,6 +1,5 @@
 package net.marcello.fitnessstand;
 
-import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 

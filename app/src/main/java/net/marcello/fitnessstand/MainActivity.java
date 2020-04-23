@@ -1,5 +1,6 @@
 package net.marcello.fitnessstand;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -18,8 +19,6 @@ import java.nio.charset.Charset;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnLogWorkout;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +26,13 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Button btnLogWorkout = findViewById(R.id.btnLogWorkout);
+//        btnLogWorkout.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent a = new Intent(MainActivity.this, LogWorkout.class );
+//                startActivity(a);
+//            }
+//        });
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
