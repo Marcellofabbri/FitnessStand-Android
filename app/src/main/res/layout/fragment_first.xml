@@ -26,14 +26,15 @@
     <Button
         android:id="@+id/btnLogWorkout"
         android:onClick="logWorkout"
-        android:padding="10dp"
+        android:padding="0dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:layout_width="100dp"
-        android:layout_height="60dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:background="@drawable/logworkout"
         android:text="@string/log_workout"
-        android:textColor="@color/toolbarColor"
-        android:textFontWeight="900">
+        android:textSize="50dp"
+        android:textColor="@color/plus"
+        android:textFontWeight="700">
     </Button>
 </LinearLayout>
